@@ -1,3 +1,4 @@
+
 # 🛍️ Mad Colors – Full Stack E-Commerce Web Application
 
 ![PHP](https://img.shields.io/badge/PHP-Backend-blue)
@@ -67,17 +68,15 @@ The system follows a modular structure separating frontend, backend logic, and d
 
 ## 📂 Project Structure
 
-
-mad-colors/
-│
-├── admin/ # Admin dashboard and controls
-├── assets/ # CSS, JS, images
-├── includes/ # Backend logic & DB connection
-├── uploads/ # Product images
-├── vendor/ # PHPMailer dependencies
-├── index.php # Home page
-└── config.php # Database configuration
-
+| Folder/File | Description |
+|-------------|-------------|
+| admin/      | Admin dashboard and controls |
+| assets/     | CSS, JS, images |
+| includes/   | Backend logic & DB connection |
+| uploads/    | Product images |
+| vendor/     | PHPMailer dependencies |
+| index.php   | Home page |
+| config.php  | Database configuration |
 
 ---
 
