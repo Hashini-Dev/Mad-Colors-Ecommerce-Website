@@ -111,35 +111,28 @@ $database = "mad_colors";
 
 7. Open in browser: http://localhost/mad-colors
 
-🔒 Security Features
+## 🔒 Security Features
 
-Password authentication system
+- Password authentication system
+- Input validation
+- Session management
+- Secure admin access control
 
-Input validation
 
-Session management
-
-Secure admin access control
-
-🎯 Learning Outcomes
+## 🎯 Learning Outcomes
 
 This project demonstrates:
 
-Full-stack web development
+- Full-stack web development
+- CRUD operations using PHP & MySQL
+- Database integration
+- Session handling & authentication
+- Email integration using PHPMailer
+- Admin dashboard development
+- Real-world e-commerce workflow implementation
 
-CRUD operations with PHP & MySQL
+  ---
 
-Database integration
+## 📄 License
 
-Session handling & authentication
-
-Email integration using PHPMailer
-
-Admin dashboard development
-
-Real-world e-commerce workflow implementation
-
-
-
-
-
+This project is developed for academic and educational purposes.
