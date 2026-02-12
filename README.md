@@ -111,6 +111,8 @@ $database = "mad_colors";
 
 7. Open in browser: http://localhost/mad-colors
 
+---
+  
 ## 🔒 Security Features
 
 - Password authentication system
@@ -118,6 +120,7 @@ $database = "mad_colors";
 - Session management
 - Secure admin access control
 
+---
 
 ## 🎯 Learning Outcomes
 
@@ -131,7 +134,7 @@ This project demonstrates:
 - Admin dashboard development
 - Real-world e-commerce workflow implementation
 
-  ---
+---
 
 ## 📄 License
 
