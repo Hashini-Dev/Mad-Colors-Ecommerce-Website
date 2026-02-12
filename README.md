@@ -67,6 +67,7 @@ The system follows a modular structure separating frontend, backend logic, and d
 
 ## 📂 Project Structure
 
+
 mad-colors/
 │
 ├── admin/ # Admin dashboard and controls
@@ -76,6 +77,7 @@ mad-colors/
 ├── vendor/ # PHPMailer dependencies
 ├── index.php # Home page
 └── config.php # Database configuration
+
 
 ---
 
