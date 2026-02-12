@@ -1,0 +1,303 @@
+    @font-face {
+        font-family: "Assistant";
+        src: url("fonts/Assistant-VariableFont_wght.ttf");
+    }
+    
+    @font-face {
+        font-family: "LilitaOne";
+        src: url("fonts/LilitaOne-Regular.ttf");
+    }
+    
+    @font-face {
+        font-family: "Rowdies";
+        src: url("fonts/Rowdies-Bold.ttf");
+    }
+    
+    @font-face {
+        font-family: "Signika";
+        src: url("fonts/Signika-VariableFont_wght.ttf");
+    }
+    
+    .title {
+        font-family: "LilitaOne";
+        font-size: 53px;
+        color: red;
+    }
+    
+    .form {
+        position: relative;
+    }
+    
+    .hinput {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 40px 8px 20px;
+    }
+    
+    .hbutton {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        background: none;
+        font-size: 18px;
+    }
+    
+    .menu-image {
+        width: 250px;
+        height: 300px;
+    }
+    
+    .poster-image {
+        height: 500px;
+        background-repeat: no-repeat;
+    }
+    
+    .image1 {
+        background-image: url("resources/image.jfif");
+        background-size: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+    
+    .image2 {
+        background-image: url("resources/image1.png");
+        background-size: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+    
+    .image3 {
+        background-image: url("resources/image2.jpg");
+        background-size: cover;
+        height: 400px;
+        background-repeat: no-repeat;
+    }
+    
+    .image {
+        height: 200px;
+        background-color: rgb(240, 11, 11);
+    }
+    
+    .background {
+        background-image: url("resources/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
+    }
+    
+    .title2 {
+        font-size: 30PX;
+        font-family: "Signika";
+        font-weight: bold;
+    }
+    
+    .title3 {
+        font-size: 30px;
+        font-family: "Assistant";
+        font-weight: bold;
+        color: rgb(222, 20, 20);
+    }
+    
+    .title4 {
+        font-size: 70PX;
+        font-family: "Signika";
+        font-weight: bold;
+        color: black;
+    }
+    
+    .singleProduct {
+        padding-top: 65px;
+        padding-bottom: 145px;
+        padding: 20px;
+    }
+    
+    .mainImg {
+        height: 640px;
+        background-image: url("resource/empty.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .product-qty {
+        width: 90px;
+        height: 30px;
+        padding: 1px;
+    }
+    
+    .qty-buttons {
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 18px;
+        border: solid 1px rgb(72, 71, 71);
+        color: black;
+    }
+    
+    .qty-inc,
+    .qty-dec {
+        width: 100%;
+        height: 50%;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    
+    .qty-inc {
+        border-top-right-radius: 3px;
+    }
+    
+    .qty-dec {
+        border-bottom-right-radius: 3px;
+    }
+    
+    .emptyView {
+        height: 400px;
+        background-image: url("resource/watchlistEmptyView.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .admin-body {
+        background-image: url("resources/admiin_background.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    /* .chart-body {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .section {
+        width: 100%;
+        height: 100vh;
+    }
+    
+    .chart {
+        position: absolute;
+        top: 70%;
+        left: 37%;
+        transform: translate(-50%, -50%);
+        width: 550px;
+        height: 300px;
+        background: transparent;
+        border-bottom: 1px solid #000;
+        border-left: 1px solid #000;
+        display: flex;
+    }
+    
+    .chart .barchart {
+        position: relative;
+        flex: 1;
+        text-align: center;
+    }
+    
+    .chart .barchart .graph {
+        position: absolute;
+        width: 40px;
+        background: rgba(0, 0, 0, 1);
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    
+    .chart .barchart .graph::before {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        right: 2px;
+        bottom: 0;
+        background: linear-gradient(0deg, #003ba5, #009ffe);
+    }
+    
+    .chart .barchart .graph::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 50%;
+        height: 100%;
+        background: rgb(255, 255, 255, .1);
+    }
+    
+    .chart .barchart .graph .percent {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #000;
+        font-weight: bold;
+    }
+    
+    .chart .barchart .name {
+        position: absolute;
+        bottom: -200px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        color: #000;
+    } */
+    
+    .pm {
+        height: 65px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    
+    .pm1 {
+        background-image: url("resources/payment_method/visa_img.png");
+    }
+    
+    .pm2 {
+        background-image: url("resources/payment_method/mastercard_img.png");
+    }
+    
+    .pm3 {
+        background-image: url("resources/payment_method/american_express_img.png");
+    }
+    
+    .pm4 {
+        background-image: url("resources/payment_method/paypal_img.png");
+    }
+    
+    .mainImg {
+        height: 640px;
+        background-image: url("resources/empty.svg");
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    
+    .sinput {
+        width: 100%;
+        height: 100%;
+        display: block;
+        border-radius: 25px;
+        font-size: 14px;
+        padding: 8px 40px 8px 20px;
+    }
+    
+    .sbutton {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 50px;
+        height: 100%;
+        border-radius: 50%;
+        cursor: pointer;
+        border: none;
+        background: none;
+        font-size: 18px;
+    }
